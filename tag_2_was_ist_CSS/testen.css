@@ -1,0 +1,15 @@
+a:link {
+    color: rgb(155, 109, 109);
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: blueviolet;
+    background-color: yellow; 
+    font-weight: 700;
+
+}

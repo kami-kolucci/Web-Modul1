@@ -1,0 +1,53 @@
+
+
+/* h1  {
+    font-family: 'monospace';
+    font-size: 10rem;
+    color: #353531;
+    font-weight: 700;
+    font-weight: bold;
+    text-shadow:  4px 5px  #EC4E20,
+                  8px 10px  #FF9505,
+                  12px 15px #016FB9,
+                  16px 20px #F2F3D9,
+                  20px 25px #7CB518;
+} */
+
+
+
+/* -------------  aufgabe Text-Level-1_1: */
+
+
+h3 {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 80px;
+}
+
+p { 
+    color: #333;
+    font-size: 20px;
+}
+
+ul {
+    color: #777;
+    font-size: 20px; 
+}
+
+li:nth-child(1) {
+    text-decoration: overline;
+}
+
+li:nth-child(2) {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+li:nth-of-type(3) {
+    text-decoration: underline;
+    text-align: right; 
+}
+

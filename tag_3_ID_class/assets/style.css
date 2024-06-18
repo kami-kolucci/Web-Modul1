@@ -1,0 +1,297 @@
+/* section {
+    
+    background-color: linen;
+}
+
+
+h1 {
+    background-color: lightblue;
+}
+
+
+.img-box {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.background-img {
+    margin: 0 auto;
+
+    background-image: url("./img/premium_photo-1672021618005-b89f86e8d6bc.avif");
+    
+    margin: 30px 20px;
+    height: 200px;
+    width: 100%;
+    display: block;
+} */
+
+
+
+
+
+
+
+/* ehr falsch;
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-background {
+    background-image: url(./img/photo-1460602594182-8568137446ce.avif);
+    background-repeat: no repeat;
+       
+}
+
+.section-text {
+    color: whitesmoke;
+    text-align: center; 
+}
+
+
+article {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.article-background {
+    background-image: url(./img/photo-1603398749947-87246022fbf9.avif);
+    background-size: contain;
+    float: right;
+    margin: 30px 20px;
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    display: inline;
+} */
+
+
+
+
+
+
+
+
+
+/* section{
+    background-image: url("https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80");
+    background-size: contain;
+    text-align: center;
+    color: white;
+}
+
+article{
+    background-image: url("https://images.unsplash.com/photo-1603398749947-87246022fbf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat; */
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@font-face{
+    font-family: Monte;
+    src: url("./font/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+
+h3 {
+    font-family: Monte;
+}
+
+h3::first-letter {
+    color: #a020f0;
+}
+
+li:nth-child(1):first-letter {
+    color: #00bfff;
+    font-size: 25px;
+}
+
+li:nth-child(2):first-letter {
+    color: #c71585;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+li:nth-child(3):first-letter {
+    color: #32cd32;
+    font-size: 25px;
+    text-decoration: line-through;
+}
+
+li:nth-child(3) {
+    text-decoration: line-through;
+}
+
+p:nth-child(1) {
+    text-indent: 10px;
+    color: grey;
+    font-weight: 700;
+
+} */
+
+
+
+
+
+
+
+
+
+
+ h1:nth-child(1)::first-letter {
+    color: red;
+    font-size: 60px;
+}
+
+p:nth-child(2)::before {
+    background-image: url("./img/emojis/check.png");
+    content: "";
+    background-size: 10px 20px;
+    display: inline-block;
+    width: 10px; 
+    height: 20px;
+}
+
+p:nth-child(2)::after {
+    background-image: url("./img/emojis/dance.png");
+    content: "";
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    
+}
+
+p:nth-child(2) {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div-box {
+    display: flex; 
+    width: 1200px;
+    height: 600px;
+    justify-content: space-evenly;
+}
+
+.class1 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.class2 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(132, 209, 17), rgba(145, 6, 109, 30));
+}
+
+.class3 {
+    width: 200px;
+    height: 200px;
+    background-image: url("./img/photo-1460602594182-8568137446ce.avif");
+    background-size: cover;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: end;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body {
+    background-image: url("./img/UK.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+section {   
+    height: 100vh;  
+}
+ */
+
+
+
+
+
+
+
+
+/* 
+ body {
+    text-align: center;
+    color: #333;
+ }
+
+#layout {
+    background-color: #f1f1f1;
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+button {
+    background-color:  lightblue;
+    padding-top: 5px 15px;
+    border: 1px solid green;
+    border-radius: 3px;
+
+} */
+
+
+
