@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.briefe {
+    width: 20%;
+    height: auto;
+}
+
+.grand-can {
+    width: 24vh;
+}
+
+.schwarzer-mann {
+    height: 50vh;
+}
+
+.strand {
+    width: 14em;
+}

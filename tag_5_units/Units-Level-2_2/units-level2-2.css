@@ -1,0 +1,67 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: New;
+    src: url("./assets/font/Playwrite_NZ/PlaywriteNZ-VariableFont_wght.ttf");
+}
+
+
+/* @font-face{
+    font-family: robotoBlack;
+    src: url("../font/Roboto-Black.ttf");
+}
+@font-face{
+    font-family: robotoRegular;
+    src: url("../font/Roboto-Regular.ttf");
+} */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/photo-1718103377026-df9e40c78141.avif");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+header {
+  
+    /* width: 20vw;
+    height: 20vh;
+    margin-left: 30vw;
+    margin-top: 5vw; */
+}
+
+div {
+    /* display: flex;
+    justify-content: 
+    align-items:self-end; */
+    
+    
+    width: 45vw;
+    height: 30vh;
+    margin-left: 30vw;
+    margin-top: 5vw;
+    font-family: New;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 5vw;
+    background-color: beige;
+    opacity: 0.3;
+    text-align: center;
+    border-radius: 100px;
+    
+}
+
+h1 {
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+
+}

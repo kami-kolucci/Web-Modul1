@@ -1,0 +1,84 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    margin: 2em;
+}
+
+section {
+    border: 2px solid black;
+  
+}
+
+ul {
+    list-style: none;
+}
+
+.dog li {
+    font-size: 0.8rm;
+    color:red;
+}
+
+
+.dog li::before {
+    content: "🐊";
+}
+
+
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding-inline-start: 1.2em;
+}
+
+.div1 {
+    font-size: 2em;
+}
+
+.div2 {
+    font-size: 0.8em;
+}
+
+.div {
+    font-size: 0.4em;
+}
+
+
+.box1 {
+    display: inline-block;
+    position: absolute;
+    top: 38rem; left: 10rem;
+    /* background-color: aqua; */
+    width: 20vw;
+    height: 15vh;
+    margin: 5em;
+}
+
+.box2 {
+    display: inline-block;
+    /* background-color: yellowgreen; */
+    width: 20vw;
+    height: 15vh;
+    margin: 5em;
+    position: absolute;
+    top: 38rem; left: 35rem;
+}
+
+.box3 {
+    display: inline-block;
+    /* background-color: red; */
+    width: 20vw;
+    height: 15vh;
+    margin: 5em;
+    position: absolute;
+    top: 38rem; left: 60rem;
+}
+
+
+.box1.box2.box3 {
+    background-color: black;
+}
