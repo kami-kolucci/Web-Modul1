@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    padding: 5rem 20rem 0rem 30rem;
+}
+
+.main-box {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 25vw;
+    height: 80vh;
+}
+
+img {
+    padding: 8rem 0rem 0rem 8rem;
+    width: 16rem;
+}
+
+.button-box {
+    width: 25vw;
+    height: 65vh;
+    padding: 12rem 0rem 0rem 8rem;
+}
+
+button[type="submit"] {
+    background: rgb(106, 41, 225);
+    width: 7rem;
+    padding: 0.4rem 1.9rem;
+    border-radius: 40px;
+    color: #f6efef;
+    font-size: 1rem;
+}
+

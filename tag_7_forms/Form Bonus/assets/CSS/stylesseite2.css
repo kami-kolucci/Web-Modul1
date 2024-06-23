@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    padding: 5rem 20rem 0rem 30rem;
+}
+
+.main-box {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 25vw;
+    height: 80vh;
+}
+
+.brain {
+    padding: 1rem 5rem 0rem 9.5rem;
+}
+
+.brain img {
+    width: 3vw;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.pc {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.unten {
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 25vw;
+    height: 42vh;
+}
+
+p:nth-of-type(1) {
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    color: rgb(106, 41, 225);
+    margin-top: 4rem;
+}
+
+p:nth-of-type(2) {
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    width: 23vw;
+    padding-left: 1.1rem;
+}
+/*  *********** Button ****** */
+
+.button-box {
+    display: inline-block;
+    width: 25vw;
+    height: 65vh;
+    padding: 2rem 2rem 10rem 8rem;
+}
+
+button[type="submit"] {
+    background: rgb(106, 41, 225);
+    width: 7rem;
+    padding: 0.4rem 1.9rem;
+    border-radius: 30px;
+    color: #f6efef;
+    font-size: 1rem;
+}

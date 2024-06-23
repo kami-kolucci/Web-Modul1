@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    padding: 5rem 20rem 0rem 30rem;
+}
+
+.main-box {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 25vw;
+    height: 80vh;
+}
+/* ******* header ****** */
+.pc {
+    padding: 0rem 0rem 0rem 3rem;
+    
+}
+
+.pc img {
+    width: 13rem;
+    padding: 2rem 0rem 0rem 4rem;
+}
+/* ******* header ****** */
+
+.unten {
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 25vw;
+    height: 63.2vh;
+}
+
+.sign {
+    font-family: Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+label {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.input {
+    padding-bottom: 1.7rem;
+}
+
+
+/*  wie steuere ich checkboxterms an? wie kann ich padding-left ansteuern */
+
+
+/* input[type="checkbox"] {
+    padding-left: 4rem;
+    background: green;
+} */
+
+
+
+/******** Checkbox ********/
+div label:nth-child(2) {
+    font-size: 0.8rem;
+}
+/******** Checkbox ********/
+
+
+/* ****** Button ******* */
+button[type="submit"], button[type="button"] {
+    background: rgb(106, 41, 225);
+    width: 12rem;
+    padding: 0.4rem 1.9rem;
+    border-radius: 30px;
+    color: #f6efef;
+    font-size: 0.8rem;
+}
+
+.button-box {
+    padding: 1rem 0rem 1rem 5rem;
+}
+/* ****** Button ******* */
+
+.line{
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.line hr {
+    width: 20rem;
+    border: 1px solid black; 
+}
+
+.footer-text {
+    text-align: center;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
