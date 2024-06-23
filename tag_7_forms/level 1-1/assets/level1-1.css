@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    background-color: rgb(248, 244, 244);
+    
+    padding: 3rem 2em;
+    border: 1px solid black;
+    line-height: 2rem;
+    
+}
+
+body{
+    margin: 2vh 2vw;
+    width: 35vw;
+    height: 70vh;
+}
+
+.text {
+    display: inline-block;
+}
+
+input[type]:nth-child(3) { 
+    color: white;
+    background: rgb(68, 147, 121);
+    padding: 0rem 5rem 0rem 4rem;
+}

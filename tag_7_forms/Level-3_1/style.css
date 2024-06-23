@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.sign {
+    width: 40vw;
+    height: 50vw;
+    border: 2px solid black;
+    border-radius: 30px;
+    /* padding: 2rem; */
+    margin: 2rem;
+}
+
+.title {
+    background-color: hsl(228, 83%, 61%);
+    border-radius: 30px;
+    border: 2px dotted black;
+
+}
+h1 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    height: 1rem;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.data {
+    margin-top: 3rem;
+}
+.text-data {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: grey;
+    text-decoration: overline;
+    text-align: left;
+}
+
+.agree {
+    margin-top: 2rem;
+}
+
+input[type="submit"] {
+    background: hsl(228, 83%, 61%);
+    padding: 1rem;
+    border-radius:8px;
+}
+

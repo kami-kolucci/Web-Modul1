@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 1vh 1vw;
+    width: 10vw;
+    flex-direction: row;
+}
+
+fieldset {
+    background-color: white;
+    padding: 5rem 10em;
+    border: 1px solid black;
+    line-height: 1.8rem;
+}
+
+
+
+
+
+

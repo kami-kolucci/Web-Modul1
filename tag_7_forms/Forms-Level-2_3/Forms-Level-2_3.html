@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Forms-Level-2_3.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+
+            <legend>Register Form</legend>
+
+            <section class="text">
+                <label for="text">Name</label >
+                <input type="text" name="" id="" required placeholder="Name">
+            </section>
+
+            <section class="text">
+                <label for="text">Surname</label>
+                <input type="text" name="" id="" required placeholder="Surname">
+             </section>
+
+            <section class="email">
+                <label for="email">E-Mail</label>
+                <input type="email" id='' required placeholder="E-Mail">
+            </section>
+
+            
+            <div class="gender-box">
+                <p>Gender</p>
+            <input type="radio" name="Gender" id="radioMale" checked>
+                    <label for="radioMale">Male</label>
+            </div>
+            <div>
+                    <input type="radio" name="Gender" id="radioFemale">
+                    <label for="radioFemale">Female</label>
+            </div>
+           
+            <section class="pic">
+                
+                    <p> Picture</p>
+                    <input type="file" id="file">
+                </div>
+            </section>
+
+            <section>
+                <h2>Country</h2>
+                <div>
+                    <select name="" id="">
+                        
+                        <option value="">Please choose</option>
+                        <option value="Germany">Germany</option>
+                        <option value="England">England</option>
+                        <option value="France">France</option>
+                        
+                    </select>
+                </div>
+            </section>
+
+            <section>
+
+                <h2>Preferred language</h2>
+                <div>
+                    <input type="checkbox" id="checkboxHTML">
+                    <label for="checkboxHTML">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkboxCSS">
+                    <label for="checkboxCSS">CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkboxJS">
+                    <label for="checkboxJS">JS</label>
+                </div>
+            </section>
+
+            <div>
+                <input type="submit" value="Send">
+            </div>
+
+            <div><input type="button" value="Cancel"></div>
+
+                
+        </fieldset>
+    </form>
+
+</body>
+</html>
