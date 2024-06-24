@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('./img/desert.avif');
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(220,160,140,0.5);
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.nav-box  {
+    display: flex;
+    width: 35rem;
+    justify-content: space-around;
+    margin-right: 5rem;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
