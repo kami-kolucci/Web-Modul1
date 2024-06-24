@@ -33,7 +33,7 @@ body {
     border-radius: 20px;
     background-color: aliceblue;
     width: 25vw;
-    height: 63.2vh;
+    height: 64vh;
 }
 
 .sign {
@@ -55,20 +55,13 @@ label {
     padding-bottom: 1.7rem;
 }
 
-
-/*  wie steuere ich checkboxterms an? wie kann ich padding-left ansteuern */
-
-
-/* input[type="checkbox"] {
-    padding-left: 4rem;
-    background: green;
-} */
-
-
-
 /******** Checkbox ********/
 div label:nth-child(2) {
     font-size: 0.8rem;
+}
+
+.checkboxterms {
+    margin-bottom: 1rem;
 }
 /******** Checkbox ********/
 
@@ -85,11 +78,14 @@ button[type="submit"], button[type="button"] {
 
 .button-box {
     padding: 1rem 0rem 1rem 5rem;
+    
 }
 /* ****** Button ******* */
 
 .line{
     padding: 0rem 0rem 0rem 1rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
 }
 
 .line hr {
@@ -100,4 +96,5 @@ button[type="submit"], button[type="button"] {
 .footer-text {
     text-align: center;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1.3rem;
 }
