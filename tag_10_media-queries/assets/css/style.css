@@ -1,0 +1,307 @@
+@font-face {
+    font-family: raleway;
+    src: url(../font/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: raleway;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 76px;
+}
+
+.burger-wrapper {
+    display: none;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+.burger-inside {
+    background-color: #337ab7;
+    height: 10px;
+    width: 70px;
+    margin: 3px;
+}
+
+.logo {
+    color:  #666;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    color: #333;
+    font-size: 1.1rem;
+    justify-content: space-around;
+    width: 50vw;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+/* ***** Hover ****** */
+.logo:hover {
+    color: #333;
+}
+
+li a:hover {
+    color: #337ab7;
+}
+
+/* ***** Hover ****** */
+
+main {
+    background-image: url('../img/ocean.png');
+    background-size: cover;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ****** Main ****** */
+
+.slogan {
+    color: whitesmoke;
+    font-size: 4rem;
+    height: 14vh;
+    /* align-self: center; */
+}
+
+.text-box {
+    font-family: raleway;
+    color: whitesmoke;
+    font-size: 1rem;
+    width: 75vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+}
+/* ****** Button ******* */
+.button-box {
+    display: flex;
+    width: 75vw;
+    height: 6vh;
+    gap: 0.4rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+button {
+    width: 200px;
+    height: 45px;
+    background: #745CF9;
+    border: 1px solid white;
+    color: rgb(248, 246, 246);
+}
+
+.button-box button:nth-of-type(1) {
+    background: none;
+}
+
+/* ****** products ******* 2 page */
+
+.products {
+    width: 100vw;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.laptop {
+        margin-top: 10rem;
+        margin-left: 5rem;
+        height: 60%;
+        width: 50vw;
+        object-fit: cover;   
+}
+
+.product-items {
+    margin: 13rem 0rem 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.product-title {
+    
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.product-text {
+   padding-top: 2rem;
+   width: 17rem;
+   color: grey;
+}
+
+.button-readme {
+    margin-top: 3rem;
+    width: 00px;
+    height: 45px;
+    background: #745CF9;
+    border: 1px solid white;
+    color: rgb(14, 10, 10);
+}
+
+/* ******* products2 - page 3***** */
+
+.products2 {
+    width: 100vw;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.laptop2 {
+        margin-top: 10rem;
+        margin-right: 5rem;
+        height: 60%;
+        width: 50vw;
+        object-fit: cover;   
+}
+
+.product-items2 {
+    margin: 13rem 5rem 0rem 7rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.product-title2 {
+    
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.product-text2 {
+   padding-top: 2rem;
+   width: 17rem;
+   color: grey;
+}
+
+.button-readme2 {
+    margin-top: 3rem;
+    width: 00px;
+    height: 45px;
+    background: #745CF9;
+    border: 1px solid white;
+    color: rgb(14, 10, 10);
+}
+
+
+
+
+
+
+/* ********* Tablet Media Queries **********/
+
+@media only screen and (max-width: 992px) {
+nav {
+    display: none;
+    }
+    
+.burger-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.burger-text {
+    padding-left: 0.2rem;
+    color: #337ab7;
+}   
+
+main {
+    padding-top: 15rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slogan {
+    color: rgb(3, 6, 51);
+    text-shadow: 0 0 10px rgb(42, 62, 159);
+    text-align: center;
+}
+
+.text-box {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+button {
+    padding: 3rem 6rem 3rem 6rem;
+    width: 300px;    
+    height: 300px;
+    margin: 10px;    
+  }
+}
+
+/***********  Mobile Media Queries    *********/
+
+@media only screen and (max-width: 768px) {
+.burger-wrapper {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.burger-inside {
+    height: 20px;
+    width: 80px;
+    margin: 3px;
+}
+
+.slogan {
+    font-size: 2rem;
+}
+
+main {
+    padding-top: 10rem;
+}
+
+.text-box {
+    font-size: 1rem;
+}
+
+.button-box {
+    padding-top: 2rem;
+}
+
+button {
+    padding: 2rem 2rem 2rem 2rem;
+    width: 200px;    
+    height: 700px;
+    margin: 20px;
+
+}
+}
+
+
+
+
+    
