@@ -1,0 +1,112 @@
+@font-face {
+    font-family: monoton;
+    src: url('./font/Monoton/Monoton-Regular.ttf');
+}
+
+@font-face {
+    font-family: ubu;
+    src: url('./font/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+ nav a:nth-child(1) {
+    font-family: monoton;
+    font-size: 3rem;
+    color: gray;
+    padding-left: 2rem;
+    text-decoration: none;
+}
+
+a:nth-child(1):hover {
+    text-decoration: underline;
+}
+
+a:nth-child(2), a:nth-child(3), a:nth-child(4), 
+a:nth-child(5), a:nth-child(6) {
+    padding-left: 4rem;
+    color: gray;
+    font-size: 1.6rem;
+    text-decoration: none;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+a:nth-child(2):hover, a:nth-child(3):hover, a:nth-child(4):hover, 
+a:nth-child(5):hover, a:nth-child(6):hover {
+    border-bottom: 0.5px solid blue;;
+}
+
+a:nth-child(2):hover {
+    border-bottom: 1px solid gray;    
+}
+
+a:nth-child(3){
+    left: 20rem;
+} 
+
+a:nth-child(4) {
+    left: 23rem;
+} 
+
+a:nth-child(5) {
+    left: 26rem;
+} 
+
+a:nth-child(6) {
+    left: 29rem;
+} 
+
+/* ****** main******* */
+
+h1 {
+    font-family: ubu;
+    font-size: 4rem;
+    color: gray;
+    width: 25rem;
+    position: absolute;
+    top: 13rem;
+    left: 12rem;
+}
+
+img:nth-of-type(1) {
+    position: relative;
+    top: 4rem;
+    left: 40rem;
+}
+
+img:nth-of-type(2) {
+    position: relative;
+    top: 4rem;
+    left: 41rem;
+}
+
+img:nth-of-type(3) {
+    position: relative;
+    top: 4rem;
+    left: 42rem;
+}
+
+p:nth-of-type(1) {
+    color: orange;
+    position: absolute;
+    top: 30rem;
+    left: 12rem;
+}
+
+p:nth-of-type(2) {
+    font-family: ubu;
+    color: orange;
+    position: absolute;
+    top: 30.5rem;
+    left: 19rem;
+}

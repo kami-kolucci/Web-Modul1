@@ -1,0 +1,36 @@
+@font-face {
+    font-family: poppins;
+    src: url('./font/Poppins/Poppins-Black.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('./img/everest.avif');
+    background-position: center;
+    background-size: cover;
+    font-family: poppins;
+}
+
+main {
+    border: 1px solid red;
+    height: 20rem;
+    
+}
+
+h1 {
+    position: fixed;
+    top: 0rem;
+    left: 5rem;
+}
+
+h2 {
+    position: relative;
+    top: 9rem;
+    left: 65rem;
+}
