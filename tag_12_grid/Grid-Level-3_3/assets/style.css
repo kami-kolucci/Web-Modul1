@@ -1,0 +1,100 @@
+@font-face {
+  font-family: cor;
+  src: url(./font/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9e9e0;
+}
+/* ***** Header ******** */
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 100;
+  border-bottom: 4px solid black;
+  padding-bottom: 1.5rem;
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px solid black;
+}
+
+.data p {
+  font-size: 1.3;
+}
+
+/* ******* Grid Container ***** */
+.container {
+  display: grid;
+  height: 100vh;
+  /* width: 100vw; */
+  grid-template-columns: 15rem 15rem 30rem 15rem;
+  grid-template-rows: 14rem 15rem 15rem;
+  grid-template-areas:
+    "art1 art2 img addi1"
+    "art3 art4 img addi2"
+    "art5 art6 img addi3";
+  gap: 20px;
+  font-family: cor;
+  padding-top: 2em;
+}
+
+.box1 {
+  grid-area: art1;
+}
+
+.box2 {
+  grid-area: art2;
+}
+
+.box3 {
+  grid-area: img;
+}
+
+.box4 {
+  grid-area: addi1;
+}
+
+.box5 {
+  grid-area: art3;
+}
+
+.box6 {
+  grid-area: art4;
+}
+
+.box7 {
+  grid-area: img;
+}
+
+.box8 {
+  grid-area: addi2;
+}
+
+.box9 {
+  grid-area: art5;
+}
+
+.box10 {
+  grid-area: art6;
+}
+
+.box11 {
+  grid-area: addi3;
+}
+
+.container span {
+  font-family: cor;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
