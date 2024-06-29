@@ -4,7 +4,7 @@ body {
 
 .landing-page {
   background-image: url("./img/div.png");
-  padding-top: 80vh;
+  padding-top: 76vh;
   background-size: contain;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -16,12 +16,6 @@ section {
 }
 
 .nav-card {
-  position: sticky;
-  top: 5px;
- 
-}
-
-.nav-card {
   display: flex;
   justify-content: flex-end;
   gap: 10rem;
@@ -29,7 +23,11 @@ section {
   margin-right: 9rem;
   align-items: flex-end;
   width: 100vw;
-  background-color: rgb(255, 228, 196, 0.5);
+  background-color: rgba(102, 74, 40, 0.5);
+  position: sticky;
+  top: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 a {
